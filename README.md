@@ -2,23 +2,28 @@
 
 ## Overview
 
-TODO: Write a project description
+This project takes an application made using javascript and html and adds functionality, user interaction, 
+and dispaly elements to it. This project also focuses on applying concepts like object-oriented programming,
+collision detection, and updating the user interface of the game.
+
+### Running the Site
+
+1. Open `index.html` in Visual Studio Code.
+2. Install the Live Preview extension.
+3. Start the Live Preview server by clicking on "Live Preview: Start Server".
+4. Open the built-in debugger in VSCode.
+5. Click on the debug icon in VSCode and then click the big green arrow that says "Debug Website" to start a debugging session.
+
+## Testing
+
+No Tests Available for this lab
 
 ## Sources and Credits
 
-TODO: You must credit the sources and authors of any code, libraries, or other
-assets you use in your project. If you leave this section blank, your project
-will be considered in violation of the Academic Honesty policy unless you truly
-created everything from scratch with no outside help. If you need to use a
-source that you cannot credit (e.g. a classmate's work), you must get explicit
-permission from your instructor.
-
-A simple bulleted list below is sufficient. For example:
-
-- Bootstrap: https://getbootstrap.com/
-- jQuery: https://jquery.com/
-- Background image: https://unsplash.com/photos/...
-- Sound effects: https://freesound.org/people/...
-- Icons: https://fontawesome.com/
-- Fonts: https://fonts.google.com/
-- etc.
+- Github copiolot: for reminding me basic javascript syntax such as:
+  <pre>
+  <code>
+  const score = document.getElementById("scoreCounter");
+  score.textContent = `Score: ${evilBall.score}`;
+  </code>
+    </pre>
